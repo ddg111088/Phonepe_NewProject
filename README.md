@@ -27,9 +27,30 @@ The report is an excellent resource for anyone interested in understanding the l
 You can use the subprocess.run command to clone the Phonepe Pulse Github repository. For example, you can run the following command in your terminal:
 subprocess.run(["git", "clone", "https://github.com/PhonePe/pulse.git"])
 
+# Step 2: Data cleaning and pre-processing
+
+Once you have cloned the repository, you can use Python and its libraries like Pandas to clean and pre-process the data. Transforming the data into a suitable format for analysis and visualization. 
+
+# Step 3: Insert data into a MySQL database
+
+Next, you can use the mysql-connector-python library to connect to a MySQL database and insert the transformed data using SQL commands. You can create a new database, create a table, and insert the data into the table using the Python script
 
 
+# Step 4: Create a live geo-visualization dashboard
 
+You can use the Streamlit and Plotly libraries in Python to create an interactive and visually appealing dashboard. You can use Plotly's built-in geo map functions to display the data on a map and Streamlit can be used to create a user-friendly interface with multiple dropdown options for users to select different facts and figures to display.
+
+# Step 5: Fetch data from the MySQL database
+
+You can use the mysql-connector-python library to connect to the MySQL database and fetch the data into a Pandas dataframe. You can use the data in the dataframe to update the dashboard dynamically.
+
+# Step 6: Deployment
+
+Once you have created the dashboard, you can test it thoroughly and deploy it, making it accessible to users. 
+
+# Learning outcomes
+
+By completing this project, you will gain hands-on experience with data extraction, processing, and visualization, as well as experience working with databases, dashboards, and web development. You will also learn how to develop a comprehensive and user-friendly solution, from data extraction to dashboard deployment. You will also learn how to test and deploy the solution to ensure it is secure, efficient, and user-friendly.
 
 
 
